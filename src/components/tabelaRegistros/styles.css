@@ -1,0 +1,36 @@
+.table {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.table-rows {
+    display: grid;
+    grid-template-columns: minmax(60px, 1fr) 120px minmax(300px, 1fr) minmax(100px, 1fr) 100px 80px;
+    align-items: center;
+    text-align: center;
+    grid-gap: 10px;
+    height: 56px;
+    margin-top: 8px;
+    padding: 0 30px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+
+.table-rows-date {
+    display: flex;
+    align-items: center;
+}
+
+
+.icon-btn {
+    cursor: pointer;
+}
+
+.positive-value {
+    color: #7B61FF;
+}
+
+.negative-value {
+    color: #FA8C10;
+}

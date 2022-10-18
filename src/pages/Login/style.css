@@ -1,0 +1,169 @@
+.container {
+  background-image: url('../../assets/background\ 1.png');
+  width: 100vw;
+  height: 1024px;
+  padding: 42px 100px;
+}
+
+.card {
+  display: flex;
+  gap: 20px;
+}
+
+header {
+  margin-bottom: 50px;
+  width: 116px;
+  height: 43px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.card-left {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 450px;
+  height: 535px;
+  margin-bottom: 300px;
+
+}
+
+.card-left h1,
+p {
+  color: #FFFFFF;
+  margin-bottom: 15px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.card-left h1 {
+  font-size: 40px;
+  font-weight: 700px;
+}
+
+.card-left strong {
+  color: #7978D9;
+}
+
+.card-right {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  /* position: absolute; */
+  width: 513px;
+  height: 535px;
+  margin-bottom: 300px;
+
+  background: #FFFFFF;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+
+  width: 449px;
+  height: 301px;
+}
+
+.loginquote {
+  margin-left: 188px;
+}
+
+.card-right h1 {
+  width: 85px;
+  height: 32px;
+
+  margin-bottom: 60px;
+
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #7978D9;
+}
+
+.card-right label {
+  width: 106px;
+  height: 26px;
+  left: 837px;
+  top: 334px;
+
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #484848;
+}
+
+.card-right input {
+  width: 449px;
+  height: 63px;
+  left: 837px;
+  top: 368px;
+  padding: 5px;
+  margin-bottom: 30px;
+
+  background: #FFFFFF;
+  border: 1px solid #555555;
+  border-radius: 5px;
+}
+
+.card-right-button,
+.card-left-button {
+  border-style: none;
+  width: 449px;
+  height: 48px;
+  left: 837px;
+  top: 628px;
+
+  border-radius: 5px;
+  background: #7978D9;
+  color: #FFFFFF;
+
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.card-left-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 35px;
+
+  width: 284px;
+  height: 48px;
+  margin-right: 180px;
+
+  border-radius: 5px;
+}
+
+.card-right-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.card-left-button:hover,
+.card-right-button:hover {
+  opacity: 0.8;
+}

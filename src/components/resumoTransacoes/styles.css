@@ -1,0 +1,46 @@
+.summary-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+thead {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+thead tr {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.entries {
+    margin: 23px 0 12px 0;
+
+}
+
+.entries th:nth-child(2) {
+    color: #645FFB;
+
+}
+
+
+.exits th:nth-child(2) {
+    color: #FA8C10;
+}
+
+.balance {
+    padding-top: 17px;
+    margin-top: 10px;
+    border-top: 1px solid #EAEAEA;
+
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.balance th:nth-child(2) {
+    color: #3A9FF1;
+}
